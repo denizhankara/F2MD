@@ -15,10 +15,16 @@ if [[ $portsinuse == *"9999"* ]]
 fi
 
 PS3='Please chose a scenario: '
-options_net=("ManhattanGrid" "erlangenScenario" "IRTSystemXScenario" "LuSTNanoScenario" "LuSTMiniScenario" "LuSTScenario" "UlmScenario")
+options_net=("miniManhattanGrid" "ManhattanGrid" "erlangenScenario" "IRTSystemXScenario" "LuSTNanoScenario" "LuSTMiniScenario" "LuSTScenario" "UlmScenario")
 select opt_net in "${options_net[@]}"
 do
     case $opt_net in
+        "miniManhattanGrid")
+            echo
+            echo "you chose choice $REPLY which is $opt_net"
+            break
+            ;;
+        
         "ManhattanGrid")
             echo
             echo "you chose choice $REPLY which is $opt_net"

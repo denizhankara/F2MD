@@ -1,4 +1,36 @@
 {
     "DockerRun.DisableAutoGenerateConfig": true,
-    "restructuredtext.languageServer.disabled": true
+    "restructuredtext.languageServer.disabled": true,
+    "files.associations": {
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "numeric": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "attributedispatchers": "cpp",
+        "boundingbox": "cpp",
+        "boundingsphere": "cpp",
+        "drawable": "cpp",
+        "light": "cpp",
+        "timer": "cpp",
+        "output": "cpp",
+        "depthoffset": "cpp",
+        "elevationlayer": "cpp",
+        "geodata": "cpp",
+        "layer": "cpp",
+        "mapnode": "cpp",
+        "profile": "cpp",
+        "revisioning": "cpp",
+        "spatialreference": "cpp",
+        "terrainlayer": "cpp",
+        "verticaldatum": "cpp",
+        "visiblelayer": "cpp",
+        "optional": "cpp",
+        "geopositionnode": "cpp",
+        "expression": "cpp",
+        "fill": "cpp",
+        "stroke": "cpp"
+    }
 }
