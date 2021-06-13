@@ -1,0 +1,488 @@
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-02:09:42-43546
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.2e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+514-4.66308
+154-19.6563
+334-23.6532
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.05115 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:2/155833 0.00128343% Attackers:56055/66978 83.6917%
++++++++++++ AppV1 +++++++++++ Genuine:0/13261 0% Attackers:4447/5510 80.7078%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:2/70 2.85714% 28.6451s |Attacker:30/30 100% 3.1163s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.2106 μs 455232
++++++++++++ AppV1 +++++++++++ Genuine:3/318310 0.000942477% Attackers:113896/136921 83.1837%
++++++++++++ AppV1 +++++++++++ Genuine:0/13678 0% Attackers:4501/5525 81.4661%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:2/70 2.85714% 28.6451s |Attacker:30/30 100% 3.1163s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.21648 μs 691047
++++++++++++ AppV1 +++++++++++ Genuine:60/484523 0.0123833% Attackers:171482/206523 83.0329%
++++++++++++ AppV1 +++++++++++ Genuine:0/13219 0% Attackers:4824/5733 84.1444%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:3/70 4.28571% 63.4789s |Attacker:30/30 100% 3.1163s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.17209 μs 911979
++++++++++++ AppV1 +++++++++++ Genuine:63/641242 0.00982468% Attackers:227812/270736 84.1454%
++++++++++++ AppV1 +++++++++++ Genuine:0/13690 0% Attackers:4761/5479 86.8954%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:5/70 7.14286% 127.514s |Attacker:30/30 100% 3.1163s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+** Event #7511662   t=300   Elapsed: 385.864s (6m 25s)  100% completed  (100% total)
+     Speed:     ev/sec=19467.1   simsec/sec=0.777475   ev/simsec=25038.9
+     Messages:  created: 34189737   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=300s, event #7511662
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-02:28:12-45378
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.4e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+514-6.66308
+154-15.6563
+334-39.6532
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.01367 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:0/156528 0% Attackers:55115/66283 83.151%
++++++++++++ AppV1 +++++++++++ Genuine:0/13261 0% Attackers:4294/5510 77.931%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:30/30 100% 4.34964s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.0139 μs 455232
++++++++++++ AppV1 +++++++++++ Genuine:2/319005 0.000626949% Attackers:111282/136226 81.6893%
++++++++++++ AppV1 +++++++++++ Genuine:0/13678 0% Attackers:4524/5525 81.8824%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:2/70 2.85714% 83.2928s |Attacker:30/30 100% 4.34964s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.01123 μs 691047
++++++++++++ AppV1 +++++++++++ Genuine:20/485218 0.00412186% Attackers:167974/205828 81.6089%
++++++++++++ AppV1 +++++++++++ Genuine:0/13219 0% Attackers:4882/5733 85.1561%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:6/70 8.57143% 126.265s |Attacker:30/30 100% 4.34964s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.00772 μs 911979
++++++++++++ AppV1 +++++++++++ Genuine:30/641937 0.00467336% Attackers:223020/270041 82.5875%
++++++++++++ AppV1 +++++++++++ Genuine:0/13690 0% Attackers:5003/5479 91.3123%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:7/70 10% 138.922s |Attacker:30/30 100% 4.34964s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+** Event #7511662   t=300   Elapsed: 328.452s (5m 28s)  100% completed  (100% total)
+     Speed:     ev/sec=22869.9   simsec/sec=0.913376   ev/simsec=25038.9
+     Messages:  created: 34189737   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=300s, event #7511662
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-03:00:59-47791
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.2e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+334-3.6532
+154-12.6563
+514-22.6631
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:0.932827 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:0/155602 0% Attackers:51707/67209 76.9346%
++++++++++++ AppV1 +++++++++++ Genuine:0/13261 0% Attackers:4002/5510 72.6316%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:30/30 100% 4.01631s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+** Event #2519309   t=100   Elapsed: 109.054s (1m 49s)  100% completed  (100% total)
+     Speed:     ev/sec=23101.4   simsec/sec=0.916975   ev/simsec=25193.1
+     Messages:  created: 11881707   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-03:03:14-48065
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.4e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+514-5.66308
+154-11.6563
+334-15.6532
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.0627 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:0/155280 0% Attackers:54353/67531 80.486%
++++++++++++ AppV1 +++++++++++ Genuine:0/13261 0% Attackers:4464/5510 81.0163%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:30/30 100% 2.94964s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/70 0% 0s |Attacker:0/30 0% 0s
+** Event #2519309   t=100   Elapsed: 124.243s (2m 04s)  100% completed  (100% total)
+     Speed:     ev/sec=20277.3   simsec/sec=0.804874   ev/simsec=25193.1
+     Messages:  created: 11881707   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-15:31:14-71743
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.2e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+496-36.8546
+226-40.1318
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.03894 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:2/183458 0.00109017% Attackers:28257/39353 71.8039%
++++++++++++ AppV1 +++++++++++ Genuine:2/15503 0.0129007% Attackers:2425/3268 74.2044%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:2/80 2.5% 56.6259s |Attacker:20/20 100% 7.00418s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/80 0% 0s |Attacker:0/20 0% 0s
+** Event #2519309   t=100   Elapsed: 114.175s (1m 54s)  100% completed  (100% total)
+     Speed:     ev/sec=22065.3   simsec/sec=0.875846   ev/simsec=25193.1
+     Messages:  created: 11879497   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210609-15:35:24-72204
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.1e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+0-1.85461
+226-2.1318
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.06634 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:1/181032 0.000552389% Attackers:29839/41779 71.421%
++++++++++++ AppV1 +++++++++++ Genuine:0/15503 0% Attackers:2429/3268 74.3268%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:0/80 0% 0s |Attacker:19/20 95% 2.91052s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/80 0% 0s |Attacker:0/20 0% 0s
+** Event #2519309   t=100   Elapsed: 112.42s (1m 52s)  100% completed  (100% total)
+     Speed:     ev/sec=22409.8   simsec/sec=0.889522   ev/simsec=25193.1
+     Messages:  created: 11879497   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Des(base) dkara@dkara-virtual-machine:~/Des(base) dkara@dkara-virtual-machine:~/Des(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210610-13:56:12-128391
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 2e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+436-42.7836
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:6.40965 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:2/203761 0.000981542% Attackers:15164/19050 79.601%
++++++++++++ AppV1 +++++++++++ Genuine:0/17099 0% Attackers:1374/1672 82.177%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:2/90 2.22222% 34.6198s |Attacker:10/10 100% 5.88592s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/90 0% 0s |Attacker:0/10 0% 0s
+** Event #2519309   t=100   Elapsed: 481.764s (8m 01s)  100% completed  (100% total)
+     Speed:     ev/sec=5229.35   simsec/sec=0.207571   ev/simsec=25193.1
+     Messages:  created: 11877287   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ ./runScenario 
+
+Sumo TraCI Server is running. 
+
+1) miniManhattanGrid   4) IRTSystemXScenario  7) LuSTScenario
+2) ManhattanGrid       5) LuSTNanoScenario    8) UlmScenario
+3) erlangenScenario    6) LuSTMiniScenario
+Please chose a scenario: 2
+
+you chose choice 2 which is ManhattanGrid
+
+1) ITS-G5 (IEEE 802.11p)
+2) C-V2X (3GPP PC5 Mode 4)
+Please chose a technology: 1
+
+you chose choice 1 which is ITS-G5 (IEEE 802.11p)
+
+1) Cmdenv
+2) Qtenv
+Please chose a simulation environnement: 1
+
+you chose choice 1 which is Cmdenv
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6.1, build: 200207-b15dab9895, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ../../src/veins:  43
+Loading NED files from .:  1
+Loading NED files from /home/dkara/Desktop/v2x/F2MD/F2MD/veins-f2md/f2md-networks/ManhattanGrid:  1
+
+Preparing for running configuration General, run #0...
+Assigned runID=General-0-20210610-14:07:48-150418
+Setting up network "RSUExampleScenario"...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 1.5e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2   present: 2   in FES: 3
+436-3.78364
+-_-_-_-_-_-_-_-_-_-_-_-_- meanTimeV1:1.48757 μs 222812
++++++++++++ AppV1 +++++++++++ Genuine:0/202044 0% Attackers:17073/20767 82.2122%
++++++++++++ AppV1 +++++++++++ Genuine:0/17099 0% Attackers:1244/1672 74.4019%
+=*-=*-=*-=*- mdaV1 =*-=*-=*-=*- Genuine:0/90 0% 0s |Attacker:10/10 100% 1.68592s
+=*-=*-=*-=*- mdaV2 =*-=*-=*-=*- Genuine:0/90 0% 0s |Attacker:0/10 0% 0s
+** Event #2519309   t=100   Elapsed: 223.47s (3m 43s)  100% completed  (100% total)
+     Speed:     ev/sec=11273.6   simsec/sec=0.447487   ev/simsec=25193.1
+     Messages:  created: 11877287   present: 418202   in FES: 101
+
+<!> Simulation time limit reached -- at t=100s, event #2519309
+
+Calling finish() at end of Run #0...
+
+End.
+(base) dkara@dkara-virtual-machine:~/Desktop/v2x/F2MD/F2MD$ 

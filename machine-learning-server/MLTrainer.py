@@ -39,9 +39,10 @@ from keras.models import Model
 from keras.models import load_model
 from keras.optimizers import Adam
 from keras.callbacks import ReduceLROnPlateau
-from keras.utils import to_categorical
+#import tensorflow as tf
+#from tf.keras.utils import to_categorical
 
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.model_selection import train_test_split
 
